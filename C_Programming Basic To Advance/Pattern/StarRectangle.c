@@ -6,9 +6,9 @@ int main()
     scanf("%d",&row);
     printf("enter a number of col : ");
     scanf("%d",&col);
-
+  
     for(int i = 1; i <= row; i++){
-        for(int i = 1; i <= 4; i++){
+        for(int i = 1; i <= col; i++){
             printf("*");
         }
         printf("\n");
