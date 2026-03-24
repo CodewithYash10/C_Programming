@@ -12,7 +12,7 @@ int main(){
 
     switch(op){
         case '+':
-            printf("sum = %0.2f"num1 + num2);
+            printf("sum = %0.2f",num1 + num2);
             break;
         case '-':
             printf("diff = %0.2f",num1-num2);
